@@ -74,6 +74,14 @@ master-thesis/
   over the demographics of the dataset.
 - `create_plots` — demographic plots.
 
+## Workflow
+
+MATLAB scripts were used to preprocess the fMRI data, extract region signals, compute FC/AFC matrices,
+calculate temporal irreversibility measures, and extract features. R scripts
+were then used for dimensionality reduction, machine learning, statistical
+analysis, and visualization. Python scripts were used for exploratory data
+analysis and generation of supplementary figures.
+
 ## Atlas
 
 Composite symmetric 200-ROI atlas (100 ROIs per hemisphere) combining:
