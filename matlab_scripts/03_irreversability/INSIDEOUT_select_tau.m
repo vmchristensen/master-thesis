@@ -3,7 +3,7 @@
 % saves final CSV with one set of features per subject
 % ------EDIT BEFORE RUNNING!!!!!
 
-base_dir_left = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/m5_test_SLIC_results_SHT_left_dswu';
+base_dir_left = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_dswu';
 results_dir   = '/home/marlene/Desktop/victoria/INSIDEOUT_results';
 
 MAX_LAG   = 3;
@@ -37,7 +37,7 @@ for sub = 1:NSUB
     if ~exist(left_file,'file'), continue; end
 
     dl = load(left_file);
-    ts = dl.R_mean_roi_left;  % 101 x T
+    ts = dl.R_mean_roi_left;  % 100 x T
     Tm = size(ts, 2);
 
     for lag = 1:MAX_LAG
