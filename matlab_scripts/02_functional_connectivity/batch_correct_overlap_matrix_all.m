@@ -1,12 +1,10 @@
 %% paths
-% file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm_LEFT_orig_fixed.nii';
-% central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_dswu';
+file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm_LEFT_orig_fixed.nii';
+central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_dswu';
 
 % file_mask = '/home/marlene/Desktop/victoria/atlas/grey/flipped_atlas_SENS_HCP_Tian_gm_LEFT_fixed.nii';
 % central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_flipped_dswu';
 
-file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm.nii'
-central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_asymmetrical'
 
 %% load the mask once
 mask_nii = load_untouch_nii(file_mask);
