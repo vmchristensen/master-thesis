@@ -1,4 +1,4 @@
-
+% NEED THE FILES FROM THE SLIC GITHUB FOR THIS TO WORK
 % batch_SLIC.m
 clear; clc;
 
@@ -13,11 +13,7 @@ fprintf('Working directory set to: %s\n', pwd);
 % Parent directory containing all subject folders
 data_dir = '/home/marlene/Desktop/data_victoria/EZM2';
 
-% Brain mask (same for all subjects)
-file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm.nii'
-central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_asymmetrical'
-
-% % using the left  mask
+% % using the left mask
 % file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm_LEFT_orig_fixed.nii';
 % central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_dswu';
 
@@ -25,17 +21,9 @@ central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT
 % file_mask = '/home/marlene/Desktop/victoria/atlas/grey/flipped_atlas_SENS_HCP_Tian_gm_LEFT_fixed.nii';
 % central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_flipped_dswu';
 
-% % using the right mask
-% file_mask = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm_RIGHT_orig_fixed.nii';
-% central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_right_dswu';
-% 
-% % using the right flipped mask
-% file_mask = '/home/marlene/Desktop/victoria/atlas/grey/flipped_atlas_SENS_HCP_Tian_gm_RIGHT_fixed.nii';
-% central_output = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_right_flipped_dswu';
-% 
 
 % SLIC settings
-sK = [600]; 
+sK = [300]; 
 % change this
 m  = 40;
 
