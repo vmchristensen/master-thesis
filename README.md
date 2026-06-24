@@ -5,7 +5,7 @@ Master's thesis (Data Science, UPC Barcelona)
 This repository documents the analysis code used to produce the results in
 the thesis: testing whether resting-state fMRI asymmetric functional
 connectivity (AFC) predicts hemispheric language dominance in a
-non-right-handed healthy adult cohort (n = 258, cohorts EZM2 and EZM3), with
+non-right-handed healthy adult cohort (n = 258), with
 ground-truth labels derived from task-based fMRI (Villar-Rodríguez et al.,
 2024).
 
