@@ -103,4 +103,6 @@ cohorts.
 
 ## Citation
 
-(Predicting Language Lateralization from Resting-State fMRI Connectivity, Victoria Margrethe Christensen, UPC, 2026)
+[Christensen], [V]. ([2026]). *Predicting language
+lateralization from resting-state fMRI connectivity* (Master's thesis).
+Universitat Politècnica de Catalunya.
