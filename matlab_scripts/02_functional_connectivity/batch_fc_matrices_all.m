@@ -1,3 +1,5 @@
+% create FC matrix
+
 %% SUBJECTS TO EXCLUDE FROM GROUP MATRICES (individual files still saved)
 exclude_list = {'sub-EZM20001', 'sub-EZM20002', 'sub-EZM20003', 'sub-EZM20004', 'sub-EZM20005', 'sub-EZM20006', 'sub-EZM20007', 'sub-EZM20008', 'sub-EZM20009','sub-EZM20024', 'sub-EZM20028', 'sub-EZM20033', 'sub-EZM20045', 'sub-EZM20046', 'sub-EZM20059', 'sub-EZM20085', 'sub-EZM20086', 'sub-EZM20094', 'sub-EZM20099', 'sub-EZM20104', 'sub-EZM20120', 'sub-EZM20136', 'sub-EZM20137', 'sub-EZM20146', 'sub-EZM20148', 'sub-EZM20152', 'sub-EZM20153', 'sub-EZM20155', 'sub-EZM20168', 'sub-EZM20176', 'sub-EZM20052', 'sub-EZM20057', 'sub-EZM20091', 'sub-EZM20112', 'sub-EZM20115', 'sub-EZM20186'};  % add your subjects here
 
