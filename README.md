@@ -103,6 +103,6 @@ cohorts.
 
 ## Citation
 
-[Christensen], [V]. ([2026]). *Predicting language
+Christensen, V. (2026). *Predicting language
 lateralization from resting-state fMRI connectivity* (Master's thesis).
 Universitat Politècnica de Catalunya.
