@@ -1,12 +1,12 @@
 %% PARAMETERS
+base_slic_dir = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_dswu';
 %base_slic_dir = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_SHT_left_flipped_dswu';
-base_slic_dir = '/home/marlene/Desktop/victoria/slic_individual_light_IMPORTANT/SLIC-individual-light-master/test_SLIC_results_asymmetrical'
 base_rs_dir   = '/home/marlene/Desktop/data_victoria/EZM2';
 
 % mask_left          = '/home/marlene/Desktop/victoria/atlas/grey/atlas_SENS_HCP_Tian_gm_LEFT_orig_fixed.nii';
 % mask_left_mirrored = '/home/marlene/Desktop/victoria/atlas/grey/flipped_atlas_SENS_HCP_Tian_gm_LEFT_fixed.nii';
 
-K = 600;
+K = 300;
 
 subject_dirs = dir(fullfile(base_slic_dir, 'sub-EZM2*'));
 subject_dirs = subject_dirs([subject_dirs.isdir]);
