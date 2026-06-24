@@ -1,6 +1,6 @@
 % =============================================================================
 % Asymmetric Functional Connectivity (AFC) — Raemaekers et al. (2018)
-% 259 subjects (EZM2 + EZM3)
+% 258 subjects (EZM2 + EZM3)
 % =============================================================================
 
 clear; clc;
@@ -10,7 +10,7 @@ data_dir = '/home/marlene/Desktop/victoria/FC_matrices';
 output_dir = '/home/marlene/Desktop/victoria/AFC_output';
 % ─────────────────────────────────────────────────────────────────────────────
 
-% ── EXACT 259 SUBJECT LIST ───────────────────────────────────────────────────
+% ── EXACT 258 SUBJECT LIST ───────────────────────────────────────────────────
 subject_ids = { ...
     'EZM30009','EZM20010','EZM20011','EZM20015','EZM20016','EZM20017', ...
     'EZM20018','EZM20019','EZM20020','EZM20021','EZM20022','EZM20023', ...
